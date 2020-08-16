@@ -25,6 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## run and upload code coverage report to sonar
 
 Run 'docker run -d --name sonarqube -p 9000:9000 sonarqube'
+Run 'ng test --code-coverage'
 Run 'npm run sonar'
 
 Note: your report will be uploaded to sonar with project name as mydemo
