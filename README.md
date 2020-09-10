@@ -38,4 +38,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 https://www.wizeline.com/blog-continuous-deployment-with-semantic-release-and-github-actions/
 
-testing git pull request.
+testing git pull request. testing...
