@@ -30,7 +30,7 @@ jobs:
 
   # Run tests
   - name: Test
-    run: npm cache clean --force && rm -rf node_modules && rm -f package-lock.json && npm install && npm test
+    run: npm test
 
  release:
   # Only release on push to master
