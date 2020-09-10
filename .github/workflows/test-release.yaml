@@ -16,11 +16,11 @@ jobs:
   steps:
   # Fetch the latest commit
   - name: Checkout
-   uses: actions/checkout@v2
+    uses: actions/checkout@v2
 
   # Setup Node.js using the appropriate version
   - name: Use Node.js ${{ matrix.node-version }}
-   uses: actions/setup-node@v1
+    uses: actions/setup-node@v1
    with:
     node-version: ${{ matrix.node-version }}
 
